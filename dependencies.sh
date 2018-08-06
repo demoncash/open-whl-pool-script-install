@@ -175,6 +175,7 @@ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches && echo 999999 |
 
 echo -e "\033[32mInstalling gwhale"
 
+cd ~
 git clone https://github.com/WhaleCoinOrg/WhaleCoin.git
 cd WhaleCoin
 make gwhale
